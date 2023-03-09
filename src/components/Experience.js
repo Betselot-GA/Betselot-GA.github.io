@@ -52,8 +52,8 @@ export const Experience = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
-                            <h2>Experience</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                            <h2>My Experience👨‍💻</h2>
+                            <p>Here are some of my past experiences as a Software Engineer.<br></br> Some of them are Full Time jobs and some are Internships.</p>
                             <Timeline align="alternate">
                                 <TimelineItem>
                                     <TimelineOppositeContent>
@@ -136,7 +136,7 @@ export const Experience = () => {
                                     <TimelineContent>
                                         <Paper elevation={3}
 
-                                            style={paperstyle} className='h4'>Botaye Software Engineer
+                                            style={paperstyle} className='h4'>Botaye Software : Engineer
                                             <Typography variant="body1" component="p">
                                                 <ul style={{ "textAlign": "left" }}>
                                                     <li>Designed and implemented new features to improve website's user experience, resulting in a 10% increase in conversions</li>
