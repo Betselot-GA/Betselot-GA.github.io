@@ -9,7 +9,7 @@ export const About = () => {
             
             <Container>
                 
-                <Row className="aligh-items-center">
+                <Row className="aligh-items-center" style={{"marginTop":"-10%"}}>
                     
                     <Col xs={12} md={12} xl={2}></Col>
                     <Col xs={12} md={12} xl={9}>

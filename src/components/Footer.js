@@ -6,11 +6,13 @@ import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          <MailchimpForm />
+          {/* <MailchimpForm /> */}
           <Col size={12} sm={6}>
             <img src={logo} alt="Logo" />
           </Col>
@@ -20,7 +22,7 @@ export const Footer = () => {
               <a href="https://www.facebook.com/sassybgs/"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://www.instagram.com/sassybgs/"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Copyright © 2023 Betselot Semaw.<br/><br/> All Rights Reserved</p>
+            <p>Copyright © {currentYear} Betselot Semaw.<br/><br/> All Rights Reserved</p>
           </Col>
         </Row>
       </Container>

@@ -47,11 +47,11 @@ export const Experience = () => {
     };
 
     return (
-        <section className="skill" id="skills">
+        <section className="skill container" id="skills">
             <div className="container mt-5">
                 <div className="row">
-                    <div className="col-12">
-                        <div className="skill-bx wow zoomIn">
+                    <div className="col-12 container">
+                        <div className="skill-bx wow zoomIn container">
                             <h2>My Experience👨‍💻</h2>
                             <p>Here are some of my past experiences as a Software Engineer.<br></br> Some of them are Full Time jobs and some are Internships.</p>
                             <Timeline align="alternate">
