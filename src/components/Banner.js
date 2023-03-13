@@ -55,9 +55,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Betselot Semaw`}<br /><br /> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer", "Web Designer", "Space Enthusiast" ]'><span className="wrap" style={{ "color": "#512da8" }}>{text}</span></span></h1><br /><br />
-                  {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
                   <a style={{ "textDecoration": "none" }} href="https://github.com/Betselot-GA/Portfolio">  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button></a>
               </div>}
             </TrackVisibility>
