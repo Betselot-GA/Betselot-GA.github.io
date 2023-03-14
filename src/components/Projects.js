@@ -22,12 +22,12 @@ export const Projects = () => {
       imgUrl: projImg1,
       projectlink:"https://special-education.vercel.app/"
     },
-    {
-      title: "Repibox Recipe Website",
-      description: "Design & Development",
-      imgUrl: projImg3,
-      projectlink:"https://repibox.vercel.app/"
-    },
+    // {
+    //   title: "Repibox Recipe Website",
+    //   description: "Design & Development",
+    //   imgUrl: projImg3,
+    //   projectlink:"https://repibox.vercel.app/"
+    // },
     
   ];
 
